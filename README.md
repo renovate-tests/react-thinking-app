@@ -3,14 +3,14 @@
 ## 開発環境構築
 
 ### 初期設定
-package.jsonを生成。初期設定をスキップするため `-y` オプションを付けている。
+package.jsonを生成。初期設定をスキップするため`-y`オプションを付けている。
 
 ```node
 $ npm init -y 
 ```
 
 ### babelとwebpackをインストール
-`-D` は `--save-dev` と同義でpackage.json の devDependencies に自動的に記録するためのオプション。
+`-D` は `--save-dev` と同義でpackage.json の devDependencies に自動的に記録するためのオプション。
 
 ```
 $ npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react
