@@ -107,9 +107,9 @@ export default class FilterableProductTable extends React.Component {
         });
     }
 
-    handleInStockInput(inStockOnly) {
+    handleInStockInput(isStockOnly) {
         this.setState({
-            isStockOnly: inStockOnly
+            isStockOnly: isStockOnly
         })
     }
 
